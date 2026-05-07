@@ -1,20 +1,84 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# My AI App
 
-# Run and deploy your AI Studio app
+> A production-ready AI-powered web application built with Node.js.
 
-This contains everything you need to run your app locally.
+[![Node.js](https://img.shields.io/badge/Node.js-Required-339933?style=flat&logo=node.js)](https://nodejs.org/)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Status](https://img.shields.io/badge/Status-Active-brightgreen)]()
 
-View your app in AI Studio: https://ai.studio/apps/aeb66b08-cca9-4264-af49-01db10f602bc
+---
 
-## Run Locally
+## Table of Contents
 
-**Prerequisites:**  Node.js
+- [Overview](#overview)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Running the App](#running-the-app)
+- [Project Structure](#project-structure)
+- [License](#license)
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Overview
+
+This application leverages AI to deliver intelligent, real-time interactions
+through a clean and modern interface. It is designed for rapid local
+development and straightforward cloud deployment.
+
+**Local Development URL:** [http://localhost:3000/](http://localhost:3000/)
+
+---
+
+## Prerequisites
+
+Before getting started, ensure you have the following installed:
+
+| Requirement | Version  | Download |
+|-------------|----------|----------|
+| Node.js     | >= 18.x  | [nodejs.org](https://nodejs.org/) |
+| npm         | >= 9.x   | Included with Node.js |
+
+---
+
+## Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/your-repo.git
+
+# Navigate into the project directory
+cd your-repo
+
+# Install dependencies
+npm install
+```
+
+---
+
+## Configuration
+
+Create or update the `.env.local` file in the root directory:
+
+```env
+GEMINI_API_KEY=your_gemini_api_key_here
+```
+
+> **Security Notice:** Never commit `.env.local` to version control.
+> Ensure it is listed in your `.gitignore` file.
+
+---
+
+## Running the App
+
+```bash
+npm run dev
+```
+
+Once running, open your browser and navigate to:
+
+**[http://localhost:3000/](http://localhost:3000/)**
+
+---
+
+## Project Structure

@@ -46,12 +46,12 @@ export default function Footer() {
             `
           }}
         >
-          thinkplus.
+          thinkedge.
         </h1>
       </div>
 
       <div className="max-w-7xl mx-auto px-6 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-sm font-medium text-neutral-500 relative z-10">
-        <div>© 2024 Thinkplus Education. All rights reserved.</div>
+        <div>© 2024 ThinkEdge Education. All rights reserved.</div>
         <div className="flex gap-6">
           <a href="#" className="hover:text-white">Privacy Policy</a>
           <a href="#" className="hover:text-white">Terms of Service</a>

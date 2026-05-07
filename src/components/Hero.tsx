@@ -161,7 +161,7 @@ export default function Hero() {
         <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-6 md:gap-8 mt-8">
           <div className="max-w-3xl relative">
             <div className="inline-flex border border-white/10 bg-white/5 backdrop-blur-md px-4 py-1.5 rounded-full text-[10px] font-bold uppercase tracking-widest mb-6 shadow-xl">
-              Welcome to Thinkplus
+              Welcome to ThinkEdge
             </div>
             <h1 className="text-6xl md:text-8xl lg:text-9xl font-bold tracking-tighter leading-[1.1] mb-6 drop-shadow-2xl">
               Rewrite your <br/>

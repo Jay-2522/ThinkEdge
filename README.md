@@ -1,43 +1,57 @@
-# My AI App
+# My Website
 
-> A production-ready AI-powered web application built with Node.js.
+> A fast, modern, and fully responsive web application built for performance and scalability.
 
-[![Node.js](https://img.shields.io/badge/Node.js-Required-339933?style=flat&logo=node.js)](https://nodejs.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)](https://nodejs.org/)
+[![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+[![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)](https://nextjs.org/)
+[![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Status](https://img.shields.io/badge/Status-Active-brightgreen)]()
 
 ---
 
 ## Table of Contents
 
 - [Overview](#overview)
+- [Tech Stack](#tech-stack)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Configuration](#configuration)
 - [Running the App](#running-the-app)
-- [Project Structure](#project-structure)
 - [License](#license)
 
 ---
 
 ## Overview
 
-This application leverages AI to deliver intelligent, real-time interactions
-through a clean and modern interface. It is designed for rapid local
-development and straightforward cloud deployment.
+A clean, high-performance website designed with a focus on user experience, speed, and maintainability. Built using modern web technologies and best practices for both development and production environments.
 
 **Local Development URL:** [http://localhost:3000/](http://localhost:3000/)
 
 ---
 
+## Tech Stack
+
+| Layer         | Technology         | Purpose                              |
+|---------------|--------------------|--------------------------------------|
+| Frontend      | React.js           | Component-based UI development       |
+| Framework     | Next.js            | Server-side rendering & routing      |
+| Styling       | Tailwind CSS       | Utility-first responsive design      |
+| Runtime       | Node.js            | JavaScript server-side runtime       |
+| Package Mgr   | npm                | Dependency management                |
+| Environment   | dotenv / .env.local| Secure environment variable handling |
+| Deployment    | Vercel             | Cloud hosting & CI/CD pipeline       |
+
+---
+
 ## Prerequisites
 
-Before getting started, ensure you have the following installed:
+Ensure the following are installed before proceeding:
 
-| Requirement | Version  | Download |
-|-------------|----------|----------|
-| Node.js     | >= 18.x  | [nodejs.org](https://nodejs.org/) |
-| npm         | >= 9.x   | Included with Node.js |
+| Requirement | Minimum Version | Download |
+|-------------|-----------------|----------|
+| Node.js     | >= 18.x         | [nodejs.org](https://nodejs.org/) |
+| npm         | >= 9.x          | Included with Node.js |
 
 ---
 
@@ -50,7 +64,7 @@ git clone https://github.com/your-username/your-repo.git
 # Navigate into the project directory
 cd your-repo
 
-# Install dependencies
+# Install all dependencies
 npm install
 ```
 
@@ -58,27 +72,43 @@ npm install
 
 ## Configuration
 
-Create or update the `.env.local` file in the root directory:
+Create or update the `.env.local` file in the root of the project:
 
 ```env
-GEMINI_API_KEY=your_gemini_api_key_here
+GEMINI_API_KEY=your_api_key_here
 ```
 
-> **Security Notice:** Never commit `.env.local` to version control.
-> Ensure it is listed in your `.gitignore` file.
+> **Security Notice:** Never expose or commit `.env.local` to version control. Verify it exists in your `.gitignore`.
 
 ---
 
 ## Running the App
 
+Start the local development server:
+
 ```bash
 npm run dev
 ```
 
-Once running, open your browser and navigate to:
+Open your browser and visit:
 
 **[http://localhost:3000/](http://localhost:3000/)**
 
+To create a production build:
+
+```bash
+npm run build
+npm start
+```
+
 ---
 
-## Project Structure
+## License
+
+This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute this project in accordance with the license terms.
+
+---
+
+<div align="center">
+  <sub>Built with React · Next.js · Tailwind CSS · Node.js</sub>
+</div>

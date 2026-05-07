@@ -26,21 +26,21 @@
 
 A clean, high-performance website designed with a focus on user experience, speed, and maintainability. Built using modern web technologies and best practices for both development and production environments.
 
-**Local Development URL:** [http://localhost:3000/](http://localhost:3000/)
+[**Click Here to See →**](http://localhost:3000/)
 
 ---
 
 ## Tech Stack
 
-| Layer         | Technology         | Purpose                              |
-|---------------|--------------------|--------------------------------------|
-| Frontend      | React.js           | Component-based UI development       |
-| Framework     | Next.js            | Server-side rendering & routing      |
-| Styling       | Tailwind CSS       | Utility-first responsive design      |
-| Runtime       | Node.js            | JavaScript server-side runtime       |
-| Package Mgr   | npm                | Dependency management                |
-| Environment   | dotenv / .env.local| Secure environment variable handling |
-| Deployment    | Vercel             | Cloud hosting & CI/CD pipeline       |
+| Layer         | Technology          | Purpose                               |
+|---------------|---------------------|---------------------------------------|
+| Frontend      | React.js            | Component-based UI development        |
+| Framework     | Next.js             | Server-side rendering & routing       |
+| Styling       | Tailwind CSS        | Utility-first responsive design       |
+| Runtime       | Node.js             | JavaScript server-side runtime        |
+| Package Mgr   | npm                 | Dependency management                 |
+| Environment   | dotenv / .env.local | Secure environment variable handling  |
+| Deployment    | Vercel              | Cloud hosting & CI/CD pipeline        |
 
 ---
 
@@ -92,7 +92,7 @@ npm run dev
 
 Open your browser and visit:
 
-**[http://localhost:3000/](http://localhost:3000/)**
+[**Click Here to See →**](http://localhost:3000/)
 
 To create a production build:
 

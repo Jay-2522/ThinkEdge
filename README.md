@@ -26,7 +26,6 @@
 
 A clean, high-performance website designed with a focus on user experience, speed, and maintainability. Built using modern web technologies and best practices for both development and production environments.
 
-[**Click Here to See →**](http://localhost:3000/)
 
 ---
 

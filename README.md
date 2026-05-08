@@ -92,7 +92,7 @@ npm run dev
 
 Open your browser and visit:
 
-[**Click Here to See →**](http://localhost:3000/)
+[**Click Here to See →**](https://think-edge-three.vercel.app/)
 
 To create a production build:
 
